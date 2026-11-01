@@ -1,9 +1,10 @@
 
-name: Generate Snake
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */24 * * *"
+
   workflow_dispatch:
 
 permissions:
@@ -12,6 +13,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Generate Snake
@@ -22,7 +24,7 @@ jobs:
             dist/github-snake.svg?color_snake=%23000000
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ffffff
 
-      - name: Deploy
+      - name: Deploy Snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
