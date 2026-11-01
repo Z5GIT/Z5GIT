@@ -1,10 +1,8 @@
 
-<!-- ===================== HEADER ===================== -->
-
 <h1 align="center">Hi, I'm Amir 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=SF+Pro+Display&weight=500&size=22&pause=1200&color=0969DA&center=true&vCenter=true&width=500&height=45&lines=Welcome+to+my+GitHub;Building+ideas+with+code;Technology+enthusiast" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com/?font=SF+Pro+Display&weight=500&size=22&pause=1200&color=0969DA&center=true&vCenter=true&width=500&height=45&lines=Welcome+to+my+GitHub;Building+ideas+with+code;Technology+Enthusiast" alt="Typing animation" />
 </p>
 
 <p align="center">
@@ -15,8 +13,6 @@
 
 ---
 
-<!-- ===================== ABOUT ===================== -->
-
 <h2 align="center">About Me</h2>
 
 <p align="center">
@@ -26,8 +22,6 @@
 </p>
 
 ---
-
-<!-- ===================== GITHUB STATS ===================== -->
 
 <h2 align="center">GitHub Statistics</h2>
 
@@ -46,8 +40,6 @@
 
 ---
 
-<!-- ===================== ACTIVITY GRAPH ===================== -->
-
 <h2 align="center">Activity</h2>
 
 <p align="center">
@@ -60,16 +52,24 @@
 
 ---
 
-<!-- ===================== SNAKE ===================== -->
-
 <h2 align="center">Contribution Snake 🐍</h2>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/z5git/z5git/output/github-snake.svg"
-    alt="GitHub contribution snake animation"
-    width="100%"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/z5git/z5git/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/z5git/z5git/output/github-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/z5git/z5git/output/github-snake.svg"
+      width="100%"
+      alt="Amir's GitHub Snake"
+    />
+  </picture>
 </p>
 
 ---
